@@ -1,0 +1,13 @@
+title = "Job"
+url = "/job/:id/view"
+layout = "default"
+description = "This page displays details of a single job post"
+is_hidden = 0
+
+[jobDetails]
+
+[session]
+security = "none"
+redirect = "home"
+==
+{% component 'jobDetails' %}
